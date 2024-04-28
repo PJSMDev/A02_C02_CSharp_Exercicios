@@ -11,6 +11,8 @@ namespace M01_E01
     {
         static void Main(string[] args)
         {
+            // 1. Apresentar a área de um retângulo a partir de dois valores (altura e largura) introduzidos pelo utilizador. 
+
             Utility.SetUnicodeConsole();
 
             double height, length, areaRec;
