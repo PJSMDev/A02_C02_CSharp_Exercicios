@@ -31,14 +31,14 @@ namespace M01_E06
                 numbers[i] = double.Parse(Console.ReadLine());
             }
 
-            Utility.WriteMessage("Alinhados <-, 20 casas numéricas e 2 casas decimais", "", "\n");
+            Utility.WriteMessage("Alinhados <-, 20 casas numéricas e 2 casas decimais:", "", "\n");
 
             foreach (double item01 in numbers)
             {
                 Utility.WriteMessage($"{item01,-20:F2}", "\t", "\n");
             }
 
-            Utility.WriteMessage("Alinhados ->, 20 casas numéricas e 1 casa decimal", "", "\n");
+            Utility.WriteMessage("Alinhados ->, 20 casas numéricas e 1 casa decimal:", "", "\n");
 
             foreach (double item02 in numbers)
             {
